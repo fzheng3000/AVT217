@@ -1,0 +1,8 @@
+#images {
+  margin: 0;
+  text-align: center;
+}
+#images img {
+  max-width: 100%;
+  margin:25px 0;
+}
