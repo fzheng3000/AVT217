@@ -1,0 +1,31 @@
+body {
+  background-color: rebeccapurple;
+  color: white;
+  font-family: sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-right:60px
+  margin-left: 50px
+
+
+
+
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px
+
+
+  }
+  a:hover {
+    color: yellow;
+
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin: 25px
+  }
