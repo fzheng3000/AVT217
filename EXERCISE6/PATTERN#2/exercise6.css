@@ -1,0 +1,38 @@
+
+body {
+   margin: auto;
+   overflow-x: hidden;
+}
+.container {
+width: 130vw;
+margin: 50px 10%;
+}
+.block-1, .block-2, .block-3 {
+  width: 50px;
+  height: 50px;
+  float:left;
+  /* opacity: .7; */
+  border-radius: 50%;
+  border: 10px solid rebeccapurple;
+  background-color: #55;
+}
+.block-1 {
+ height: 50px;
+ width: 50px;
+ background-color: #55;
+}
+.block-2 {
+  width: 150px;
+  height: 130px;
+  background-color: cornflowerblue;
+  border-color: yellow;
+  margin: -50px;
+
+}
+.block-3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow
+  border-color: yellow;
+  margin: -50px;
+}
