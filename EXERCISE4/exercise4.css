@@ -4,12 +4,9 @@ body {
   font-family: sans-serif;
   font-size: 15px;
   text-transform:full-width;
-  margin: 50px;
+  margin: 100px;
 
-
-
-
-  }
+ }
   a {
     color: white;
     text-decoration: none;
@@ -18,7 +15,7 @@ body {
 
   }
   a:hover {
-    color: yellow;
+    color: cornflowerblue;
 
   }
   ul {
@@ -27,4 +24,14 @@ body {
   }
   li {
     margin: 25px
+  }
+  h1{
+    font-size: 60px
+  }
+  h2{
+    color: yellow;
+  }
+  .container{
+    width: 50%
+    margin: 100px auto;
   }
