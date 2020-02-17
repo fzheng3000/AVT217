@@ -1,5 +1,5 @@
 body {
-  background-color: rebeccapurple;
+  background-color: MEDIUMPURPLE;
   color: white;
   font-family: sans-serif;
   font-size: 15px;
@@ -15,7 +15,7 @@ body {
 
   }
   a:hover {
-    color: cornflowerblue;
+    color: black;
 
   }
   ul {

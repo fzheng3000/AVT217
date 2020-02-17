@@ -1,8 +1,9 @@
 body {
-  background-color: rebeccapurple;
-  color: white;
-  font-family: sans-serif;
-  font-size: 45px;
+  background-color: MEDIUMPURPLE;
+  color: PEACHPUFF;
+  font-family: Noto Sans, sans-serif;
+  font-size: 60px;
+  font-weight: 100px;
   text-transform: uppercase;
   margin-right: auto;60px
   margin-left: 50px
@@ -13,13 +14,14 @@ body {
   }
   a {
     color: white;
+    font-size: 40px;
     text-decoration: none;
     letter-spacing: 3px
 
 
   }
   a:hover {
-    color: yellow;
+    color: sandybrown;
 
   }
   ul {
