@@ -6,30 +6,50 @@ body {
 width: 130vw;
 margin: 50px 10%;
 }
-.block-1, .block-2, .block-3 {
+.blue-rectangle-1, .blue-rectangle-2, .blue-rectangle-3 {
   width: 100px;
   height: 100px;
   float:left;
   /* opacity: .7; */
-  border-radius: 50%;
-  border: 10px solid black;
+  border: 10px solid crimson;
 }
-.block-1 {
-  width: 100px;
-  height: 100px;
-  background-color: purple;
-  border-color: red;
-  margin: 50px;
+
+  .blue-rectangle-1 {
+    position: relative;
+    width: 212px;
+    height: 100px;
+    box-sizing: content-box;
+  }
+  .blue-rectangle-1:before,
+  .blue-rectangle-1:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid chocolate;
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
+  }
+  .blue-rectangle-1:after {
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 50px 0;
+    transform: rotate(45deg);
+  }
+
 }
-.block-2 {
+.blue-rectangle-2 {
   width: 100px;
   height: 100px;
   background-color: blue;
   border-color: blue;
   margin: -50px;
 }
-.block-3 {
-  width: 100px;
+.blue-rectangle-3 {
+  width: 200px;
   height: 100px;
   background-color: yellow
   border-color: yellow;
