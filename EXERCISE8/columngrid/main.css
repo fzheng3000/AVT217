@@ -1,0 +1,47 @@
+body{
+  background-color: mediumpurple;
+}
+.container{
+  width:900px;
+  height:900px;
+  background-color: mediumpurple;
+  margin:auto;
+}
+
+.HEADER{
+  width: 900px;
+    height: 100px;
+    background-color: NavajoWhite;
+    float:left;
+  }
+
+.TopWhite{
+  width: 900px;
+  height: 12px;
+  background-color:mediumpurple;
+  float:left;
+}
+.SUBHEAD{
+  width: 900px;
+    height: 12px;
+    background-color: NavajoWhite;
+    float:left;
+  }
+  .SecondWhite{
+    width: 900px;
+    height: 12px;
+    background-color:mediumpurple;
+    float:left;
+  }
+  .BodyRed{
+    width: 292px;
+    height: 652px;
+    background-color: NavajoWhite;
+    float:left;
+    }
+  .White{
+    width: 12px;
+    height: 652px;
+    background-color:mediumpurple;
+    float:left;
+    }
