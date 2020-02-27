@@ -2,10 +2,10 @@ body {
   background-color: MEDIUMPURPLE;
   color: PEACHPUFF;
   font-family: Noto Sans, sans-serif;
-  font-size: 60px;
+  font-size: 110px;
   font-weight: 100px;
   text-transform: uppercase;
-  margin-right: auto;60px
+  margin-right: auto;
   margin-left: 50px
 
 
@@ -14,9 +14,10 @@ body {
   }
   a {
     color: white;
-    font-size: 40px;
+    font-size: 75px;
     text-decoration: none;
-    letter-spacing: 3px
+    letter-spacing: 1px
+
 
 
   }
