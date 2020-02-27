@@ -6,7 +6,9 @@ body {
   font-weight: 100px;
   text-transform: uppercase;
   margin-right: auto;
-  margin-left: 50px
+  margin-left: 50px;
+
+
 
 
 
@@ -17,8 +19,9 @@ body {
     color: white;
     font-size: 45px;
     text-decoration: none;
-    letter-spacing: 1px
-   
+    letter-spacing: 1px;
+    line-height: 20px
+
 
 
 
