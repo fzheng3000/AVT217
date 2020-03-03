@@ -1,14 +1,14 @@
 body{
-  background-color: black;
+  background-color: darkslateblue;
 }
 #board{
   width:800px;
   height:1440px;
-  background-color: bisque;
+  background-color: darkslateblue;
   margin:auto;
 }
 
-.topRed{
+.Header{
   width: 800px;
     height: 200px;
     background-color: plum;
