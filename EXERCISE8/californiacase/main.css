@@ -1,7 +1,7 @@
 body{
   background-color: black;
 }
-#board{
+#container{
   width:1375px;
   height:740px;
   background-color: black;
