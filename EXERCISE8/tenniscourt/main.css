@@ -1,18 +1,18 @@
 body{
   background-color: black;
 }
-.cf:before,
-.cf:after{
-  content:"";/*1*/
-  display:table;/*2*/
+.container:before,
+.container:after{
+  content:"";
+  display:table;
 }
-.cf:after{
+.container:after{
   clear:both;
 }
 *{
   box-sizing: border-box;
 }
-#board{
+#court{
   width:710px;
   height:705px;
   background-color: black;
